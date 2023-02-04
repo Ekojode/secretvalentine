@@ -41,6 +41,17 @@
                 to { background-position: 130px 640px, bottom right, 0 300px, 0 0; }
             }
 
+            #bottom{
+                background-image: url(./assets/news.png);
+                background-position: center;
+                background-size: contain;
+                position: relative;
+                height: 300px;
+                width: 300px;
+                right: 0;
+                bottom: 0;
+            }
+
             .spirit-of-christmas {
                 display: block;
 
@@ -58,6 +69,7 @@
 
             .main {
                 display: flex;
+                flex-direction: column;
             }
 
             .background {
@@ -173,14 +185,17 @@
                     </script>
 
                 </div>
+                
             </div>
+           
 
-            <a href="http://arcanis.github.io/secretsanta/" class="spirit-of-christmas">
+            <!-- <a href="http://arcanis.github.io/secretsanta/" class="spirit-of-christmas">
                 Want to start your own Secret Santa with your friends? Click here to get started!
-            </a>
-
+            </a> -->
+            <div id="bottom"> </div>
         </div>
-
+        
+        
     </body>
 
 </html>
